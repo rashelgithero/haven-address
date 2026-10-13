@@ -51,7 +51,7 @@ export const router = createBrowserRouter([{
         </ProtectedRoute>
       },
       {
-        path: '/property/:id',
+        path: 'property/:id',
         element: <EstateDetails />
       }
 
