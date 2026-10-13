@@ -8,7 +8,7 @@ export default function EstateDetails() {
   const [estate, setEstate] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isBookmarked, setIsBookmarked] = useState(false);
-  
+
   // Set initial default title
   useDocumentTitle('Property Details');
 
@@ -143,7 +143,7 @@ export default function EstateDetails() {
             alt={estate.estate_title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-slate-950/80 via-transparent to-transparent"></div>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 h-[420px]">
           <div className="h-full rounded-2xl overflow-hidden border border-white/10 shadow-lg">
