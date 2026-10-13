@@ -34,7 +34,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
+            <h3 className=" font-bold  mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
               Navigation
             </h3>
             <ul className="space-y-2.5 text-sm">
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
+            <h3 className=" font-bold e mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
               Estates
             </h3>
             <ul className="space-y-2.5 text-sm">
@@ -60,7 +60,7 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="text-white font-bold text-base mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
+            <h3 className=" font-bold mb-4 tracking-wider uppercase text-xs text-[#F9A51A]">
               Contact Us
             </h3>
             <ul className="space-y-3 text-sm text-slate-400">
