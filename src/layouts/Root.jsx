@@ -16,7 +16,7 @@ function Root() {
       easing: 'ease-out-cubic',
     });
   }, []);
-  const {setLoading, loading} = useContext(authContext);
+  const {loading} = useContext(authContext);
   if(loading){
     return <Loading></Loading>
   }
