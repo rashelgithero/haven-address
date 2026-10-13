@@ -8,7 +8,7 @@ export default function EstateDetails() {
   const [estate, setEstate] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isBookmarked, setIsBookmarked] = useState(false);
-
+  
   // Set initial default title
   useDocumentTitle('Property Details');
 
