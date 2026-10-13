@@ -78,7 +78,7 @@ export default function NavBar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow-xl bg-slate-900 border border-white/10 rounded-2xl w-52 space-y-3"
+              className="menu menu-sm dropdown-content mt-3 z-1 p-4 shadow-xl bg-slate-900 border border-white/10 rounded-2xl w-52 space-y-3"
             >
               {navLinks}
             </ul>
