@@ -45,7 +45,7 @@ export default function Banner() {
       bgImage: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80',
     },
   ];
-
+  
   return (
     <div className="relative w-full rounded-3xl overflow-hidden shadow-2xl border border-white/10 my-6">
       <Swiper
